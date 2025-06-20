@@ -1,0 +1,5 @@
+# ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# ignore virtual-env folder
+myenv/
