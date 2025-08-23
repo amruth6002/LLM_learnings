@@ -4,7 +4,7 @@ This repository contains a Jupyter Notebook, `llm-from-scratch.ipynb`, detailing
 
 This implementation is inspired by and based on the concepts from Sebastian Raschka's "[Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch)" book.
 
-## 🚀 Key Features
+##  Key Features
 
 - **Modular Components**: Each part of the GPT architecture is built as a separate, understandable class.
 - **Self-Attention Mechanism**: A detailed implementation of Multi-Head Self-Attention, the core of the Transformer model.
@@ -13,7 +13,7 @@ This implementation is inspired by and based on the concepts from Sebastian Rasc
 - **Configuration-Driven**: Model hyperparameters are managed through a central configuration dictionary, making it easy to experiment with different model sizes.
 - **Tokenization**: Utilizes `tiktoken`, OpenAI's fast BPE tokenizer, for text processing.
 
-## 🏛️ Model Architecture
+##  Model Architecture
 
 The model implemented in this notebook is based on the GPT-2 architecture. The key components are:
 
@@ -59,7 +59,7 @@ GPT_CONFIG_124M = {
 
 The model built with this configuration has approximately **163 million parameters** and would have a size of about **622 MB**.
 
-## 🛠️ How to Use
+##  How to Use
 
 ### Prerequisites
 
@@ -100,3 +100,4 @@ The notebook is organized into the following sections:
 6.  **Training and Evaluation (Commented Out)**: The notebook includes commented-out sections for a data loader, training loop, and evaluation functions. You can uncomment and adapt these to train the model on your own dataset.
 
 I hope this README is helpful for your project! Let me know if you need any other assistance.
+
